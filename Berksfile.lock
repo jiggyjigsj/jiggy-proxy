@@ -1,0 +1,11 @@
+DEPENDENCIES
+  jiggy-proxy
+    path: .
+    metadata: true
+
+GRAPH
+  acme (4.0.0)
+    compat_resource (>= 12.19)
+  compat_resource (12.19.1)
+  jiggy-proxy (0.1.0)
+    acme (~> 4.0.0)
