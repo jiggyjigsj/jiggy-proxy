@@ -6,6 +6,8 @@ DEPENDENCIES
 GRAPH
   acme (4.0.0)
     compat_resource (>= 12.19)
+  apache2 (5.0.1)
   compat_resource (12.19.1)
   jiggy-proxy (0.1.0)
     acme (~> 4.0.0)
+    apache2 (~> 5.0.1)
