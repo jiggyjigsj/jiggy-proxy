@@ -134,7 +134,7 @@
 		# BrowserMatch "MSIE [2-6]" \
 		#		nokeepalive ssl-unclean-shutdown \
 		#		downgrade-1.0 force-response-1.0
-		# ProxyPass /ui wss://hpesxi01.jiggy.com:443/ui
+		# ProxyPass /ui wss://hpesxi01.jiggyjigs.me:443/ui
 
 		# Custom Config
 
@@ -144,16 +144,16 @@
 		SSLProxyCheckPeerExpire off
 
 		# Proxypass: owncloud
-		ProxyPass	"/owncloud" "http://owncloud.jiggy.com/owncloud"
-		ProxyPassReverse "/owncloud" "http://owncloud.jiggy.com/owncloud"
+		ProxyPass	"/owncloud" "http://owncloud.jiggyjigs.me/owncloud"
+		ProxyPassReverse "/owncloud" "http://owncloud.jiggyjigs.me/owncloud"
 		<Location /owncloud>
 			Require all granted
 		</Location>
 
 		# Proxypass: esxi
 		SSLProxyEngine on
-		ProxyPass / https://hpesxi01.jiggy.com:443/
-		ProxyPassReverse / https://hpesxi01.jiggy.com:443/
+		ProxyPass / https://hpesxi01.jiggyjigs.me:443/
+		ProxyPassReverse / https://hpesxi01.jiggyjigs.me:443/
 		<Location />
 			Require all granted
 		</Location>

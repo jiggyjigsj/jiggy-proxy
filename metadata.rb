@@ -4,7 +4,7 @@ maintainer_email 'jjp1023@gmail.com'
 license 'All Rights Reserved'
 description 'Installs/Configures jiggy-proxy'
 long_description 'Installs/Configures jiggy-proxy'
-version '0.1.0'
+version '0.2.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 depends 'apache2', '~> 5.0.1'
